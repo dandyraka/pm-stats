@@ -18,6 +18,9 @@ jobs:
           echo "Fetching API..."
           DATA=$(curl -s "${{ secrets.API_URL }}")
 
+          echo "RAW:"
+          echo "$DATA"
+          
           ITEMS=$(echo "$DATA" | jq '.data')
 
           echo "Building Markdown table..."
