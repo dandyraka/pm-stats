@@ -21,25 +21,29 @@ jobs:
             '${{ secrets.API_URL }}'
           )"
       
-          echo "RAW DATA:"
-          printf "%s\n" "$DATA"
+          # Ambil item JSON
+          ITEMS=$(echo "$DATA" | jq -c '.data[]')
       
-          OUTPUT="## Weekly Idol Ranking\n\n"
-          OUTPUT+="Terakhir update: $(date '+%Y-%m-%d %H:%M:%S')\n\n"
-          OUTPUT+="| Rank | Name | Msg/Week | Prev Rank |\n"
-          OUTPUT+="|------|------|-----------|-----------|\n"
+          # Mulai bangun markdown
+          {
+            echo "## Weekly Idol Ranking"
+            echo
+            echo "Terakhir update: $(date '+%Y-%m-%d %H:%M:%S')"
+            echo
+            echo "| Rank | Name | Msg/Week | Prev Rank |"
+            echo "|------|------|-----------|-----------|"
       
-          # INI CARA BENAR → TIDAK SUBSHELL
-          while IFS= read -r row; do
-            rank=$(jq -r '.rank' <<< "$row")
-            name=$(jq -r '.name' <<< "$row")
-            messages=$(jq -r '.messages_per_week' <<< "$row")
-            prev=$(jq -r '.previous_rank' <<< "$row")
+            # Loop normal (bukan subshell)
+            while IFS= read -r row; do
+              rank=$(jq -r '.rank' <<< "$row")
+              name=$(jq -r '.name' <<< "$row")
+              messages=$(jq -r '.messages_per_week' <<< "$row")
+              prev=$(jq -r '.previous_rank' <<< "$row")
       
-            OUTPUT+="| $rank | $name | $messages | $prev |\n"
-          done < <(echo "$DATA" | jq -c '.data[]')
+              echo "| $rank | $name | $messages | $prev |"
+            done <<< "$ITEMS"
       
-          printf "%s\n" "$OUTPUT" > README.md
+          } > README.md
 
       - name: Commit changes
         run: |
