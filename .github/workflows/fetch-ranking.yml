@@ -15,10 +15,10 @@ jobs:
 
       - name: Fetch data & update README
         run: |
-          DATA=$(curl -s \
+          DATA="$(curl -s \
             -H "User-Agent: Mozilla/5.0" \
             -H "Accept: application/json" \
-            "${{ secrets.API_URL }}")
+            "${{ secrets.API_URL }}")"
       
           ITEMS=$(echo "$DATA" | jq -c '.data[]')
       
