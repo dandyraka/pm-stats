@@ -1,6 +1,6 @@
 ## Weekly JKT48 PM Ranking
 
-Update: 2025-11-30 09:12:28
+Update: 2025-11-30 09:13:08
 
 | Rank | Name | Msg | Prev Rank |
 |------|------|-----|-----------|
