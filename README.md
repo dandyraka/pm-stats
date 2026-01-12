@@ -1,6 +1,6 @@
 ## Weekly JKT48 PM Ranking
 
-Update: 2026-01-12 05:24:30  
+Update: 2026-01-12 06:27:00  
 Week range: 2026-01-05 → 2026-01-11
 
 Data source: JKT48 PM App
@@ -60,4 +60,3 @@ Data source: JKT48 PM App
 | 51 | Olla JKT48 | 7/week | 51 |
 | 52 | Indah JKT48 | 3/week | 52 |
 | 53 | Amanda JKT48 | 3/week | 53 |
-| 58 | Gracia JKT48 | 0/week | 58 |
