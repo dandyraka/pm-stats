@@ -36,17 +36,17 @@ jobs:
             echo
             echo "Data source: JKT48 PM App"
             echo
-            echo "| Rank | Name | Msg | Prev Rank |"
-            echo "|------|------|-----|-----------|"
+            echo "| Rank | Name | Msg |"
+            echo "|------|------|-----|"
       
             # Loop normal (bukan subshell)
+            rank_counter=1
             while IFS= read -r row; do
-              rank=$(jq -r '.rank' <<< "$row")
               name=$(jq -r '.name' <<< "$row")
               messages=$(jq -r '.messages_per_week | "\(.)/week"' <<< "$row")
-              prev=$(jq -r '.previous_rank' <<< "$row")
       
-              echo "| $rank | $name | $messages | $prev |"
+              echo "| $rank_counter | $name | $messages |"
+              rank_counter=$((rank_counter + 1))
             done <<< "$ITEMS"
       
           } > README.md
