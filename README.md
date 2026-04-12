@@ -1,61 +1,61 @@
 ## Weekly JKT48 PM Ranking
 
-Update: 2026-04-11 23:26:06  
-Week range: 2026-03-30 → 2026-04-05
+Update: 2026-04-12 01:55:10  
+Week range: 2026-04-06 → 2026-04-12
 
 Data source: JKT48 PM App
 
 | Rank | Name | Msg |
 |------|------|-----|
-| 1 | Ribka JKT48 | 417/week |
-| 2 | Intan JKT48 | 283/week |
-| 3 | Delynn JKT48 | 253/week |
-| 4 | Lia JKT48 | 228/week |
-| 5 | Ekin JKT48 | 222/week |
-| 6 | Giaa JKT48 | 187/week |
-| 7 | Nachia JKT48 | 175/week |
-| 8 | Erine JKT48 | 170/week |
-| 9 | Marsha JKT48 | 138/week |
-| 10 | Nala JKT48 | 138/week |
-| 11 | Muthe JKT48 | 126/week |
-| 12 | Jemima JKT48 | 113/week |
-| 13 | Lily JKT48 | 109/week |
-| 14 | Maira JKT48 | 105/week |
-| 15 | Danella JKT48 | 99/week |
-| 16 | Greesel JKT48 | 98/week |
-| 17 | Levi JKT48 | 97/week |
-| 18 | Cathy JKT48 | 97/week |
-| 19 | Rilly JKT48 | 89/week |
-| 20 | Ella JKT48 | 85/week |
-| 21 | Mikaela JKT48 | 83/week |
-| 22 | Michie JKT48 | 82/week |
-| 23 | Indah JKT48 | 79/week |
-| 24 | Trisha JKT48 | 77/week |
-| 25 | Cynthia JKT48 | 77/week |
-| 26 | Gita JKT48 | 76/week |
-| 27 | Fritzy JKT48 | 75/week |
-| 28 | Lana JKT48 | 75/week |
-| 29 | Jessi JKT48 | 69/week |
-| 30 | Oniel JKT48 | 66/week |
-| 31 | Virgi JKT48 | 66/week |
-| 32 | Nayla JKT48 | 61/week |
-| 33 | Aralie JKT48 | 60/week |
-| 34 | Lulu JKT48 | 47/week |
-| 35 | Fiony JKT48 | 43/week |
-| 36 | Kathrina JKT48 | 42/week |
-| 37 | Chelsea JKT48 | 41/week |
-| 38 | Lyn JKT48 | 39/week |
-| 39 | Elin JKT48 | 39/week |
-| 40 | Gracie JKT48 | 38/week |
-| 41 | Raisha JKT48 | 38/week |
-| 42 | Oline JKT48 | 35/week |
-| 43 | Kimmy JKT48 | 35/week |
-| 44 | Olla JKT48 | 35/week |
-| 45 | Christy JKT48 | 32/week |
-| 46 | Daisy JKT48 | 32/week |
-| 47 | Anindya JKT48 | 27/week |
-| 48 | Alya JKT48 | 27/week |
-| 49 | Auwia JKT48 | 14/week |
-| 50 | Eli JKT48 | 5/week |
-| 51 | Gendis JKT48 | 0/week |
-| 52 | Freya JKT48 | 0/week |
+| 1 | Intan JKT48 | 526/week |
+| 2 | Ekin JKT48 | 301/week |
+| 3 | Fritzy JKT48 | 242/week |
+| 4 | Michie JKT48 | 238/week |
+| 5 | Ribka JKT48 | 237/week |
+| 6 | Danella JKT48 | 231/week |
+| 7 | Delynn JKT48 | 225/week |
+| 8 | Lia JKT48 | 220/week |
+| 9 | Giaa JKT48 | 216/week |
+| 10 | Lily JKT48 | 173/week |
+| 11 | Mikaela JKT48 | 154/week |
+| 12 | Nayla JKT48 | 146/week |
+| 13 | Nachia JKT48 | 139/week |
+| 14 | Jemima JKT48 | 137/week |
+| 15 | Erine JKT48 | 122/week |
+| 16 | Ella JKT48 | 119/week |
+| 17 | Maira JKT48 | 101/week |
+| 18 | Nala JKT48 | 100/week |
+| 19 | Lana JKT48 | 98/week |
+| 20 | Virgi JKT48 | 85/week |
+| 21 | Greesel JKT48 | 80/week |
+| 22 | Daisy JKT48 | 76/week |
+| 23 | Fiony JKT48 | 75/week |
+| 24 | Cynthia JKT48 | 74/week |
+| 25 | Elin JKT48 | 68/week |
+| 26 | Rilly JKT48 | 65/week |
+| 27 | Levi JKT48 | 60/week |
+| 28 | Muthe JKT48 | 57/week |
+| 29 | Olla JKT48 | 57/week |
+| 30 | Anindya JKT48 | 55/week |
+| 31 | Kimmy JKT48 | 54/week |
+| 32 | Jessi JKT48 | 50/week |
+| 33 | Aralie JKT48 | 45/week |
+| 34 | Chelsea JKT48 | 40/week |
+| 35 | Marsha JKT48 | 37/week |
+| 36 | Auwia JKT48 | 37/week |
+| 37 | Trisha JKT48 | 36/week |
+| 38 | Lyn JKT48 | 35/week |
+| 39 | Alya JKT48 | 34/week |
+| 40 | Oniel JKT48 | 28/week |
+| 41 | Lulu JKT48 | 21/week |
+| 42 | Gita JKT48 | 19/week |
+| 43 | Kathrina JKT48 | 19/week |
+| 44 | Christy JKT48 | 15/week |
+| 45 | Freya JKT48 | 15/week |
+| 46 | Eli JKT48 | 12/week |
+| 47 | Gracie JKT48 | 6/week |
+| 48 | Indah JKT48 | 3/week |
+| 49 | Oline JKT48 | 1/week |
+| 50 | Gendis JKT48 | 0/week |
+| 51 | Raisha JKT48 | 0/week |
+| 52 | Cathy JKT48 | 0/week |
